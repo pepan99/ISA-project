@@ -1,6 +1,6 @@
 # isa
 
-Manual is written in Czech and contains use info.
+Manual is written in Czech and contains some implementation information.
 
 Simple POP3 client used for downloading unread mails, listing mail statistics and deleting mails. Supports insecure connection and SSL/TLS.
 

@@ -1,5 +1,10 @@
 # isa
 
+Manual is written in Czech and contains use info.
+
+Simple POP3 client used for downloading unread mails, listing mail statistics and deleting mails. Supports insecure connection and SSL/TLS.
+
+
 Use cases:
 
 $ ./popcl pop3.seznam.cz -p 995 -T -a authfile123 -o zkusebnidir/ -n
@@ -11,5 +16,4 @@ Connection failed.
 $ ./popcl pop3.seznam.cz -p 110 -T -a authfile123 -o 
 Error at argument 7 (-o).
 
-Na serveru merlin dojde k SIGSEGV, podezrivam radek SSL\_CTX  *ctx = SSL_CTX_new(SSLv23_client_method());
 
